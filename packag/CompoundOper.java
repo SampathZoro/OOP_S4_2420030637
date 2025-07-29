@@ -1,0 +1,19 @@
+package packag;
+
+public class CompoundOper {
+
+	public static void main(String[] args) {
+		int x = 20;
+        x += 5;   
+        System.out.println("After += : " + x);
+        x -= 3;  
+        System.out.println("After -= : " + x);
+        x *= 2;   
+        System.out.println("After *= : " + x);
+        x /= 4;  
+        System.out.println("After /= : " + x);
+        x %= 4;   
+        System.out.println("After %= : " + x);
+    }
+
+	}
